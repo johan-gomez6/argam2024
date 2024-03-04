@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Expedientes para Construcción - Constructora & Inmobiliaria - argam</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/agram_FAV.png" rel="icon" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid" style="background-color: #194353;">
+        <div class="container d-flex justify-content-between align-items-center d-none d-md-flex">
+            <div class="col-lg-2" style="margin-left: 80px;"> <!-- Ajuste en el tamaño del contenedor del logo -->
+                <a href="index.html" class="navbar-brand h-100 m-0 p-0 d-flex">
+                    <h1><img src="img/LOGO_ARGAM/logo_white.png" alt="milogotipo" class="logo"></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 px-0 text-start">
+                <div class="h-100 d-flex align-items-center py-2 me-0">
+                    <i class="fa fa-envelope text-primary me-2"></i>
+                    <p class="mb-0" style="color: lightgray;">argam.constructora.inmobiliaria@gmail.com</p>
+                    <i class="fa fa-phone-alt text-primary ms-4 me-2"></i>
+                    <p class="mb-0 me-4" style="color: lightgray;">947 254 491</p>
+                    <a class="btn btn-xs ms-3" href="F_Trabaja_Nosotros.html">Trabaja <br>con nosotros</a>
+                </div>
+            </div>
+            <div class="col-lg-3 px-0 text-start"> <!-- Ajuste para mantener el mismo tamaño en la tercera columna -->
+                <div class="d-inline-flex align-items-center py-0">
+                    <a class="me-3" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="me-3" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="me-3" class="" href="https://wa.link/ananwh" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a class="me-3" href="https://www.instagram.com/argam.constructora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="" href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid navbar-fixed bg-menu d-md-block" style="position: fixed; z-index: 1000;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h4 id="argam-titulo" class="m-0 text-uppercase" style="color: white;">Argam S.A.C.</h4>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0" style="margin-left: 50px;">
+                        <a href="index.html" class="nav-item nav-link">INICIO</a>
+                        <a href="2_SOBRE NOSOTROS.html" class="nav-item nav-link">NOSOTROS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">SERVICIOS</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="3_SE1_TOPOGRAFIA.html" class="dropdown-item">Estudios topográficos</a>
+                                <a href="3_SE2_EXPE_CONSTRUCCION.html" class="dropdown-item">Expedientes para construcción</a>
+                                <a href="3_SE3_SF_LEGAL.html" class="dropdown-item">Saneamiento físico legal</a>
+                                <a href="3_SE4_EJEC_OBRAS.html" class="dropdown-item">Ejecución de obras</a>
+                                <a href="3_SE5_INMOBILIARIA.html" class="dropdown-item">Inmobiliaria</a>
+                                <a href="3_SE6_OTROS_SERVICIOS.html" class="dropdown-item">Otros servicios</a>
+                            </div>
+                        </div>
+                        <a href="4_PROYECTOS.html" class="nav-item nav-link">PROYECTOS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PORTAFOLIO</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="https://online.fliphtml5.com/lkmba/dzud/index.html" class="dropdown-item" target="_blank">Presentación de nuestros servicios</a>
+                                <a href="https://online.fliphtml5.com/lkmba/veoz/index.html" class="dropdown-item" target="_blank">Proyectos de vivienda</a>
+                            </div>
+                        </div>
+                        <a href="6_CONTACTO.html" class="nav-item nav-link">CONTACTO</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="6_CONTACTO.html" class="btn btn-primary rounded-0 py-2 px-6 d-none d-lg-block">Consultas<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 color-3">
+        <div class="container text-center py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <!--<h6 class="section-title text-center text-primary text-uppercase">2# Servicio</h6>-->
+            <h1 class="mb-1"><span class="text-primary text-uppercase">Expedientes para construcción</span></h1>
+        </div>
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-5 text-center t-secondary">EXPEDIENTE TÉCNICO PARA<span class="text-primary text-uppercase"> OBRAS PÚBLICAS</span></h2>
+                    <p class="mb-4"><b>N° 1 - Expediente técnico para edificaciones.</b></p>
+                    <p class="mb-4"><b>N° 2 - Expediente técnico para obras de vías y comunicaciones.</b></p>
+                    <p class="mb-4"><b>N° 3 - Expediente técnico para obras de saneamiento.</b></p>
+                    <p class="mb-4"><b>N° 4 - Expediente para represas y sistemas de riego.</b></p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="https://i.pinimg.com/564x/98/25/c4/9825c45b43df8ef91d4708b0677f3399.jpg" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="https://i.pinimg.com/564x/65/92/21/6592216f1736813b2c31ca8b887fe4e3.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="https://i.pinimg.com/564x/e9/4d/b1/e94db147e4843fb410e7b9b478b9094a.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="https://i.pinimg.com/564x/7f/80/ba/7f80baaba111df46eff868389b33a629.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid color-2">
+        <div class="container py-3">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-5 text-center t-secondary">EXPEDIENTE DE<span class="text-primary text-uppercase"> INFRAESTRUCTURA</span></h2>
+                    <p class="mb-4"><b>N° 1 - Restauración y conservación.</b></p>
+                    <p class="mb-4"><b>N° 2 - Proyectos industriales.</b></p>
+                    <p class="mb-4"><b>N° 3 - Proyectos educativos.</b></p>
+                    <p class="mb-4"><b>N° 4 - Proyectos de salud.</b></p>
+                    <p class="mb-4"><b>N° 5 - Proyectos de entretenimiento.</b></p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="https://i.pinimg.com/564x/d1/02/45/d10245f7f5aea3878160b3e67fbd570b.jpg" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="https://i.pinimg.com/564x/a4/59/4d/a4594daa57b200e26ebf32d791183816.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="https://i.pinimg.com/564x/ef/10/83/ef1083906fb53c97bab56e40228d08b4.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="https://i.pinimg.com/564x/af/06/15/af06158976726042502602a5733b2ccf.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.9s" src="https://i.pinimg.com/564x/fe/3b/e4/fe3be4fefb32f11ba44693b936330384.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid color-3">
+        <div class="container py-3">
+            <div class="row g-5 align-items-center mt-2">
+                <div class="col-lg-6">
+                    <h2 class="mb-5 text-center t-secondary">EXPEDIENTES PARA<span class="text-primary text-uppercase"> PROYECTOS DE VIVIENDA</span></h2>
+                    <p class="mb-4"><b>N° 1 - Expediente de ejecución de obra.</b></p>
+                    <p class="mb-4"><b>N° 2 - Expediente y gestión de licencia de edificación.</b></p>
+                    <p class="mb-4"><b>N° 3 - Expediente para obras de ampliación, rehabilitación y demolición.</b></p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="https://i.pinimg.com/564x/fc/af/8c/fcaf8cf7e990dd8ea33aea501566e8d4.jpg" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="https://i.pinimg.com/564x/1a/86/50/1a865040ed05e206a1cfdcd7a32783a8.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="https://i.pinimg.com/564x/ef/d0/f4/efd0f437fdd53835729ea9d7593a4d34.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="https://i.pinimg.com/564x/59/8d/79/598d79fb3e0ede420b602ef9861e28f7.jpg">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pasarela servicios Start -->
+    <div class="container-fluid py-1 color-1">
+        <div class="container text-center wow fadeInUp mt-5" data-wow-delay="0.2s">
+            <h1 class="mb-4 t-secondary">Nuestros <span class="text-primary text-uppercase">Servicios</span></h1>
+        </div>
+    </div>
+    
+    <div class="container-fluid color-1 p-3">
+        <div class="container">
+            <div class="owl-carousel owl-theme" id="myCarousel">
+                <div class="item">
+                    <a href="3_SE1_TOPOGRAFIA.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</h4> 
+                        </div>
+                        <img src="https://i.pinimg.com/564x/91/96/7b/91967b960bebf6f043dae44c72d75cfd.jpg" alt="Imagen 1" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE2_EXPE_CONSTRUCCION.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Expedientes para construcción</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/dd/7c/8e/dd7c8e2925f9536ed473f9b7cec4ffc5.jpg" alt="Imagen 2" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE3_SF_LEGAL.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Saneamiento físico legal</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/00/ba/e0/00bae0237059c31ee8837d4c94f8c998.jpg" alt="Imagen 3" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE4_EJEC_OBRAS.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Ejecución de obras</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/d0/4f/51/d04f517ea1f216cc4a3c39094bafbd4f.jpg" alt="Imagen 4" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE5_INMOBILIARIA.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Inmobiliaria</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/aa/75/ef/aa75ef0faeaa80763b7fb15896f00d8e.jpg" alt="Imagen 5" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE6_OTROS_SERVICIOS.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Otros Servicios</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/ad/c1/74/adc174ec3178b373e1cfcdff955df557.jpg" alt="Imagen 6" class="img-pasarelaS">
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-dots text-center mt-4">
+                <!-- Puntos de navegación aquí -->
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Pasarela servicios End -->
+
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 border rounded p-1">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5">
+                        <h4 class="mb-4 t-secondary">Suscríbete a nuestra <span class="text-primary text-uppercase"> PÁGINA </span></h4>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Ingrese su correo">
+                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-footer text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-primary rounded p-4">
+                        <a href="index.html"><h2 id="argam-titulo" class="text-white text-uppercase mb-3">ARGAM</h2></a>
+                        <p class="text-white mb-0" style="text-align: justify;">
+                            Descargar <a class="t-secondary fw-medium" href="https://online.fliphtml5.com/lkmba/veoz/index.html" target="_blank">ARGAM – Portafolio</a>, "Argam: Construyendo Hogares, Creando Historias." descarga tu Portafolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="section-title text-start text-primary text-uppercase mb-4">Contactos</h6>
+                    <p class="mb-2" ><i class="fa fa-map-marker-alt me-2"></i>Av. Cusco N° 116, San Sebastian, Cusco </p>
+                    <p class="mb-2" ><i class="fa fa-phone-alt me-2"></i>+51 947 254 491</p>
+                    <p class="mb-0" ><i class="fa fa-envelope me-2"></i>argam.constructora.</p>
+                    <p class="mb-2" style="display: inline;">inmobiliaria@gmail.com</p><br>
+                    <p class="mb-2" style="display: inline;"><b>RUC:</b> 20609856174</p><br>
+                    <p class="mb-2" style="display: inline;"><b>Fundación:</b> 12 de agosto del año 2022</p>
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=51947254491" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/argam.constructora/" target="_blank "><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12"> 
+                    <div class="row gy-5 g-4">
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Compañía</h6>
+                            <a class="btn btn-link" href="index.html">Inicio</a>
+                            <a class="btn btn-link" href="2_SOBRE NOSOTROS.html">Nosotros</a>
+                            <a class="btn btn-link" href="3_SERVICIOS.html">Servicios</a>
+                            <a class="btn btn-link" href="4_PROYECTOS.html">Proyectos</a>
+                            <a class="btn btn-link" href="https://online.fliphtml5.com/lkmba/dzud/index.html" target="_blank">Portafolio</a>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Servicios</h6>
+                            <a class="btn btn-link" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</a>
+                            <a class="btn btn-link" href="3_SE2_EXPE_CONSTRUCCION.html">Expedientes de construcción</a>
+                            <a class="btn btn-link" href="3_SE3_SF_LEGAL.html">Saneamiento físico Legal</a>
+                            <a class="btn btn-link" href="3_SE4_EJEC_OBRAS.html">Ejecución de obras</a>
+                            <a class="btn btn-link" href="3_SE5_INMOBILIARIA.html">Inmobiliaria</a>
+                            <a class="btn btn-link" href="3_SE6_OTROS_SERVICIOS.html">Otros servicios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Inmuebles Argam 2024</a>, Todos los Derechos Reservados. 
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">JGM</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Inicio</a>
+                            <a href="F_Libro_Reclamaciones.html">Libro de Reclamaciones</a>
+                            <a href="F_Preguntas_Frecuentes.html">Preguntas Frecuentes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Whatsapp icon -->
+    <a href="https://api.whatsapp.com/send?phone=51947254491" class="btn btn-outline-light btn-social btn-lg-square whatsapp-btn">
+        <i class="fab fa-whatsapp fa-beat-fade"></i>
+    </a>              
+
+    <!-- JavaScript Libraries -->
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bibliotecas y Plugins -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

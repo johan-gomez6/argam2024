@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Saneamiento Físico Legal - Constructora & Inmobiliaria - argam</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/agram_FAV.png" rel="icon" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid" style="background-color: #194353;">
+        <div class="container d-flex justify-content-between align-items-center d-none d-md-flex">
+            <div class="col-lg-2" style="margin-left: 80px;"> <!-- Ajuste en el tamaño del contenedor del logo -->
+                <a href="index.html" class="navbar-brand h-100 m-0 p-0 d-flex">
+                    <h1><img src="img/LOGO_ARGAM/logo_white.png" alt="milogotipo" class="logo"></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 px-0 text-start">
+                <div class="h-100 d-flex align-items-center py-2 me-0">
+                    <i class="fa fa-envelope text-primary me-2"></i>
+                    <p class="mb-0" style="color: lightgray;">argam.constructora.inmobiliaria@gmail.com</p>
+                    <i class="fa fa-phone-alt text-primary ms-4 me-2"></i>
+                    <p class="mb-0 me-4" style="color: lightgray;">947 254 491</p>
+                    <a class="btn btn-xs ms-3" href="F_Trabaja_Nosotros.html">Trabaja <br>con nosotros</a>
+                </div>
+            </div>
+            <div class="col-lg-3 px-0 text-start"> <!-- Ajuste para mantener el mismo tamaño en la tercera columna -->
+                <div class="d-inline-flex align-items-center py-0">
+                    <a class="me-3" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="me-3" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="me-3" class="" href="https://wa.link/ananwh" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a class="me-3" href="https://www.instagram.com/argam.constructora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="" href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid navbar-fixed bg-menu d-md-block" style="position: fixed; z-index: 1000;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h4 id="argam-titulo" class="m-0 text-uppercase" style="color: white;">Argam S.A.C.</h4>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0" style="margin-left: 50px;">
+                        <a href="index.html" class="nav-item nav-link">INICIO</a>
+                        <a href="2_SOBRE NOSOTROS.html" class="nav-item nav-link">NOSOTROS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">SERVICIOS</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="3_SE1_TOPOGRAFIA.html" class="dropdown-item">Estudios topográficos</a>
+                                <a href="3_SE2_EXPE_CONSTRUCCION.html" class="dropdown-item">Expedientes para construcción</a>
+                                <a href="3_SE3_SF_LEGAL.html" class="dropdown-item">Saneamiento físico legal</a>
+                                <a href="3_SE4_EJEC_OBRAS.html" class="dropdown-item">Ejecución de obras</a>
+                                <a href="3_SE5_INMOBILIARIA.html" class="dropdown-item">Inmobiliaria</a>
+                                <a href="3_SE6_OTROS_SERVICIOS.html" class="dropdown-item">Otros servicios</a>
+                            </div>
+                        </div>
+                        <a href="4_PROYECTOS.html" class="nav-item nav-link">PROYECTOS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PORTAFOLIO</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="https://online.fliphtml5.com/lkmba/dzud/index.html" class="dropdown-item" target="_blank">Presentación de nuestros servicios</a>
+                                <a href="https://online.fliphtml5.com/lkmba/veoz/index.html" class="dropdown-item" target="_blank">Proyectos de vivienda</a>
+                            </div>
+                        </div>
+                        <a href="6_CONTACTO.html" class="nav-item nav-link">CONTACTO</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="6_CONTACTO.html" class="btn btn-primary rounded-0 py-2 px-6 d-none d-lg-block">Consultas<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 color-3">
+        <div class="container text-center mt-5 wow fadeInUp" data-wow-delay="0.1s">
+            <!--<h6 class="section-title text-center text-primary text-uppercase">3# Servicio</h6>-->
+            <h1 class="mb-1"><span class="text-primary text-uppercase">Saneamiento físico legal</span></h1>
+            <p style="text-align: justify;">El saneamiento físico legal de inmuebles es el conjunto de pasos orientados a la regularización y 
+                formalización del derecho de propiedad u otros derechos reales. Es decir, con el saneamiento se busca 
+                “perfeccionar” el derecho que se tiene sobre un bien con la finalidad de que quede “apto” para su 
+                inscripción en el registro.</p>
+        </div>
+    </div>
+    
+    <!-- SFL Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="mb-5 t-secondary">Saneamiento físico legal de<span class="text-primary text-uppercase"> inmuebles</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/ef/44/53/ef4453b1569fd09bf38936d4b1e0dc4e.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/a0/76/9a/a0769ab644b794dd015a4ba541f09018.jpg"
+                            data-title="Visación de planos"
+                            data-text="El servicio de visación de planos para rectificación de área y linderos, es el procedimiento 
+                            mediante el cual se otorgan planos y memorias descriptivas visadas por el Subgerente de Catastro de la 
+                            Municipalidad, con el fin de realizar trámites ante registros públicos, correspondientes a rectificación 
+                            de área y linderos."
+                            data-subtitle="Requisitos generales para un plano visado"
+                            data-items='["Solicitud (Formato Estandarizado SAU), indicando el número de la Partida Registral del inmueble o del lote matriz.", 
+                                        "En caso de representación presentar carta poder simple.", 
+                                        "Memoria descriptiva, señalando lo indicado en los planos, como los linderos y medidas perimétricas (2 juegos originales).",
+                                        "Plano de Ubicación a escala 1/500 o 1/100 o a una escala adecuada, con indicación de medidas perimétricas, colindantes, incluir las cuatro esquinas y sección de las vías adyacentes al predio y Plano de Localización a escala 1/10,000 o 1/5000 (2 juegos originales).",
+                                        "Plano Perimétrico a escala adecuada con indicación de medidas, colindantes y ángulos internos incluyendo las coordenadas geográficas WGS 84 (2 juegos originales). Para los casos de lotizaciones o inmuebles mayores de 5,000 m2 de área total de terreno, debe incluirse las coordenadas UTM, pudiéndose variar a escala conveniente de fácil lectura.",
+                                        "Plano de Distribución 1/100 o 1/50 (1 juego original).",
+                                        "Indicar número de recibo y fecha de pago de derecho de tramitación."]'>
+                            <b>Visación de planos</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/94/8c/72/948c72a236c0cf8d5edbb377d0f3d717.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://p4.wallpaperbetter.com/wallpaper/250/864/846/design-architecture-drawings-housing-wallpaper-preview.jpg"
+                            data-title="Lotizaciones y parcelaciones"
+                            data-text="Se considera lotización, la división de una parcela de terreno que esté situada frente a la 
+                            vía pública existente o en proyectos y a otras que diseñe el lotizador para habilitar una superficie 
+                            de terreno urbano o semiurbano con miras a la edificación de viviendas."
+                            data-subtitle="Una vez inscrito el predio subdividido, se puede realizar:"
+                            data-items='["Declaratoria de fábrica de la construcción efectuada.", 
+                                        "Realizar la independización de predios.", 
+                                        "La adjudicación o titulación según sea el caso."]'>
+                            <b>Lotizaciones y parcelaciones</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/63/c8/14/63c81483719bcf6f849b7d20e81625c2.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/63/c8/14/63c81483719bcf6f849b7d20e81625c2.jpg"
+                            data-title="Certificación de zonificación y vias"
+                            data-text=""
+                            data-subtitle="Requisitos generales:"
+                            data-items='["Solicitud simple firmada por el titular o representante del inmueble.", 
+                                        "Copia del CRI o Declaración jurada indicando que el predio se encuentra inscrito en Sunarp, con su número de partida electrónica y oficina registral.", 
+                                        "Si representas a una persona jurídica, presenta una declaración jurada de vigencia de poder indicando el número de partida electrónica y oficina registral.",
+                                        "Plano Perimétrico, de Ubicación y Localización firmado por el solicitante y arquitecto/ingeniero civil."]'>
+                            <b>Certificación de zonificación y vias</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/15/6e/07/156e074f60fd2cd194c152ee30d159b4.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/6b/52/68/6b52681ccced6f69c5ef24afdf22b9e7.jpg"
+                            data-title="Certificación de Parámetros Urbanísticos y Edificatorios"
+                            data-text="Este documento indica el tipo de edificación que podrás construir, los usos, 
+                            la altura máxima (número de pisos), el porcentaje mínimo de área libre, el número de 
+                            estacionamientos permitidos, entre otras particularidades. Es decir, las especificaciones 
+                            técnicas y normativas para las diferentes modalidades de edificación de acuerdo al Reglamento 
+                            Nacional de Construcciones y las normas de cada distrito."
+                            data-subtitle="Requisitos generales:"
+                            data-items='["FUT (Solicitud dirigida al alcalde).",
+                                        "Plano Perimétrico, de Ubicación y Localización.",
+                                        "Copia del CRI.",
+                                        "Voucher de pago por el trámite realizado ante la municipalidad correspondiente."]'>
+                            <b>Certificación de Parámetros Urbanísticos y Edificatorios</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/46/58/62/465862797d5f0b7b62806337c7cf981e.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/5c/97/78/5c9778e02ace04451719442ca768dd40.jpg"
+                            data-title="Licencias de edificación"
+                            data-text="Acto administrativo a través del cual la Municipalidad otorga autorización para 
+                            la ejecución de obras de habilitación urbana o de edificación, las mismas que podrán ser objeto 
+                            de prórroga, de modificación y de desistimiento de manera expresa y a solicitud del interesado."
+                            data-subtitle="Requisitos generales:"
+                            data-items='["Solicitud dirigida al alcalde (FUT) – Gratuito en mesa de partes.",
+                                        "Formulario único de edificaciones FUE (Anexo II), qué tal en tres (03) juegos originales.",
+                                        "Anexo “A” (Anexo V) en el caso de existir copropiedad, qué tal en tres (03) juegos originales, debidamente firmados y/o sellados por el propietario o representante.",
+                                        "Copia literal de dominio, expedida por el registro de Predios o CRI con una antigüedad no mayor a (30) días calendario.",
+                                        "En caso que el solicitante sea una persona jurídica, se acompañará vigencia de derechos de poder expedida por el Registro de  personas jurídicas con una antigüedad no mayor a 30 días calendario a la presentación del documento.",
+                                        "Valorización de obra de acuerdo al cuadro de valores unitarios 2023.",
+                                        "Certificado de factibilidad de servicio de agua, alcantarillado y de energía eléctrica otorgados por las empresas o entidades prestadoras de dichos servicios."]'>
+                            <b>Licencias de edificación</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/26/32/c7/2632c7c2836613ebd4c990e607a6d0eb.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/35/fd/ae/35fdae06bb7b1f42e201ac03d62bb800.jpg"
+                            data-title="Registro de la propiedad inmueble"
+                            data-text="Es un Registro público que tiene por objeto la inscripción de bienes inmuebles, de 
+                            su titularidad, así como de todos los cambios y limitaciones que experimenten.">
+                            <b>Registro de la propiedad inmueble</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/83/51/7a/83517aaf54440aaecce66f6b945ec736.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/84/29/28/84292827da75a011559752873fc292fe.jpg"
+                            data-title="Declaratoria de fábrica"
+                            data-text="Inscripción de una construcción en el Registro de Predios correspondiente, donde 
+                            se consignan las características y condiciones técnicas de una obra.">
+                            <b>Declaratoria de fábrica</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/c4/68/b5/c468b59a029177195111a0bfd7e1131c.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/95/5b/f4/955bf462ccde149288c90ac3b2b40549.jpg"
+                            data-title="Independización de predios"
+                            data-text="Es un acto registral que tiene la finalidad de abrir una partida registral, independiente, 
+                            para cada unidad inmobiliaria resultante de una desmembración (división) de terreno, o de una edificación.">
+                            <b>Independización de predios</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/5e/c8/af/5ec8afc19769291a9c0a9689593cada6.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/b0/86/ed/b086edfd56bdfa2b0c9484f728c52f56.jpg"
+                            data-title="Adjudicaciones"
+                            data-text="Acto judicial que consiste en la atribución de una cosa (mueble o inmueble) a una persona 
+                            a través de una subasta, licitación o partición hereditaria. El ganador del proceso, por lo tanto, 
+                            se adjudica el bien y pasa a ser su propietario o responsable.">
+                            <b>Adjudicaciones</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/d9/26/6e/d9266eb00f073275cea551820d147920.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/c1/91/cc/c191cc73de5eaea4042839c2ea887574.jpg"
+                            data-title="Prescripción adquisitiva de dominio"
+                            data-text="Forma de adquirir la propiedad de bienes muebles e inmuebles por el 
+                            transcurso del tiempo y cumpliendo determinados requisitos exigidos en la Ley.">
+                            <b>Prescripción adquisitiva de dominio</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/a3/fd/5a/a3fd5a50f56bbf7b567a2b60decc3a3b.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/44/b3/9f/44b39f7f8c7dca121eb2629ab9795439.jpg"
+                            data-title="Rectificación de áreas y linderos"
+                            data-text="Procedimiento catastral, registral, notarial o judicial mediante el cual se 
+                            corrige un defecto o se subsana la información en cuanto a la dimensión de la cabida de un 
+                            bien inmueble.">
+                            <b>Rectificación de áreas y linderos</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp room-sfl" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative image-sfl">
+                            <img class="img-fluid image-same" src="https://i.pinimg.com/564x/63/b6/58/63b658eeda0266616776ffd3dcefb6d4.jpg" alt="">
+                        </div>
+                        <div class="p-1 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary rounded py-2 px-5 detailsButton"
+                            data-image-src="https://i.pinimg.com/564x/24/e4/30/24e4305069952a6e2348ffe9d10857eb.jpg"
+                            data-title="Habilitación Urbana"
+                            data-text="Habilitación urbana es el conjunto de acciones que deberá cumplir la Urbanización, 
+                            cooperativa, Asociación de vivienda o comunidad, para conseguir la titulación para cada lote 
+                            y su respectiva inscripción en los Registros Públicos de su localidad.
+                            El proceso de habilitación urbana permite la ejecución de obras de accesibilidad, agua y 
+                            desagüe, de distribución de energía e iluminación pública, además de pistas y veredas, 
+                            delimitando mediante las áreas públicas y privadas.">
+                            <b>Habilitación Urbana</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- SFL End -->
+
+    <!-- Modal -->
+    <div class="container-fluid">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div id="dynamicModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeDynamicModal()"><i class="fas fa-circle-xmark"></i></span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid modal-image" id="modal-image" src="" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 id="modal-title" class="text-center t-secondary"></h2>
+                            <p id="modal-text" style="text-align: justify;"></p>
+                            <h5 id="modal-subtitle" class="t-secondary"></h5>
+                            <ul id="modal-items" style="text-align: justify;">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- Pasarela servicios Start -->
+    <div class="container-fluid py-1 color-1">
+        <div class="container text-center wow fadeInUp mt-5" data-wow-delay="0.2s">
+            <h1 class="mb-4 t-secondary">Nuestros <span class="text-primary text-uppercase">Servicios</span></h1>
+        </div>
+    </div>
+    
+    <div class="container-fluid color-1 p-3">
+        <div class="container">
+            <div class="owl-carousel owl-theme" id="myCarousel">
+                <div class="item">
+                    <a href="3_SE1_TOPOGRAFIA.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</h4> 
+                        </div>
+                        <img src="https://i.pinimg.com/564x/91/96/7b/91967b960bebf6f043dae44c72d75cfd.jpg" alt="Imagen 1" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE2_EXPE_CONSTRUCCION.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Expedientes para construcción</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/dd/7c/8e/dd7c8e2925f9536ed473f9b7cec4ffc5.jpg" alt="Imagen 2" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE3_SF_LEGAL.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Saneamiento físico legal</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/00/ba/e0/00bae0237059c31ee8837d4c94f8c998.jpg" alt="Imagen 3" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE4_EJEC_OBRAS.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Ejecución de obras</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/d0/4f/51/d04f517ea1f216cc4a3c39094bafbd4f.jpg" alt="Imagen 4" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE5_INMOBILIARIA.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Inmobiliaria</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/aa/75/ef/aa75ef0faeaa80763b7fb15896f00d8e.jpg" alt="Imagen 5" class="img-pasarelaS">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="3_SE6_OTROS_SERVICIOS.html" class="image-link">
+                        <div class="image-overlay">
+                            <h4 class="t-content">Otros Servicios</h4>
+                        </div>
+                        <img src="https://i.pinimg.com/564x/ad/c1/74/adc174ec3178b373e1cfcdff955df557.jpg" alt="Imagen 6" class="img-pasarelaS">
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-dots text-center mt-4">
+                <!-- Puntos de navegación aquí -->
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Pasarela servicios End -->
+    
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 border rounded p-1">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5">
+                        <h4 class="mb-4 t-secondary">Suscríbete a nuestra <span class="text-primary text-uppercase"> PÁGINA </span></h4>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Ingrese su correo">
+                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-footer text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-primary rounded p-4">
+                        <a href="index.html"><h2 id="argam-titulo" class="text-white text-uppercase mb-3">ARGAM</h2></a>
+                        <p class="text-white mb-0" style="text-align: justify;">
+                            Descargar <a class="t-secondary fw-medium" href="https://online.fliphtml5.com/lkmba/veoz/index.html" target="_blank">ARGAM – Portafolio</a>, "Argam: Construyendo Hogares, Creando Historias." descarga tu Portafolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="section-title text-start text-primary text-uppercase mb-4">Contactos</h6>
+                    <p class="mb-2" ><i class="fa fa-map-marker-alt me-2"></i>Av. Cusco N° 116, San Sebastian, Cusco </p>
+                    <p class="mb-2" ><i class="fa fa-phone-alt me-2"></i>+51 947 254 491</p>
+                    <p class="mb-0" ><i class="fa fa-envelope me-2"></i>argam.constructora.</p>
+                    <p class="mb-2" style="display: inline;">inmobiliaria@gmail.com</p><br>
+                    <p class="mb-2" style="display: inline;"><b>RUC:</b> 20609856174</p><br>
+                    <p class="mb-2" style="display: inline;"><b>Fundación:</b> 12 de agosto del año 2022</p>
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=51947254491" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/argam.constructora/" target="_blank "><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12"> 
+                    <div class="row gy-5 g-4">
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Compañía</h6>
+                            <a class="btn btn-link" href="index.html">Inicio</a>
+                            <a class="btn btn-link" href="2_SOBRE NOSOTROS.html">Nosotros</a>
+                            <a class="btn btn-link" href="3_SERVICIOS.html">Servicios</a>
+                            <a class="btn btn-link" href="4_PROYECTOS.html">Proyectos</a>
+                            <a class="btn btn-link" href="https://online.fliphtml5.com/lkmba/dzud/index.html" target="_blank">Portafolio</a>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Servicios</h6>
+                            <a class="btn btn-link" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</a>
+                            <a class="btn btn-link" href="3_SE2_EXPE_CONSTRUCCION.html">Expedientes de construcción</a>
+                            <a class="btn btn-link" href="3_SE3_SF_LEGAL.html">Saneamiento físico Legal</a>
+                            <a class="btn btn-link" href="3_SE4_EJEC_OBRAS.html">Ejecución de obras</a>
+                            <a class="btn btn-link" href="3_SE5_INMOBILIARIA.html">Inmobiliaria</a>
+                            <a class="btn btn-link" href="3_SE6_OTROS_SERVICIOS.html">Otros servicios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Inmuebles Argam 2024</a>, Todos los Derechos Reservados. 
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">JGM</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Inicio</a>
+                            <a href="F_Libro_Reclamaciones.html">Libro de Reclamaciones</a>
+                            <a href="F_Preguntas_Frecuentes.html">Preguntas Frecuentes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Whatsapp icon -->
+    <a href="https://api.whatsapp.com/send?phone=51947254491" class="btn btn-outline-light btn-social btn-lg-square whatsapp-btn">
+        <i class="fab fa-whatsapp fa-beat-fade"></i>
+    </a>              
+
+    <!-- JavaScript Libraries -->
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bibliotecas y Plugins -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

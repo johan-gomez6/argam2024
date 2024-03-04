@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Libro de Reclamaciones - Constructora & Inmobiliaria - argam</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/agram_FAV.png" rel="icon" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid" style="background-color: #194353;">
+        <div class="container d-flex justify-content-between align-items-center d-none d-md-flex">
+            <div class="col-lg-2" style="margin-left: 80px;"> <!-- Ajuste en el tamaño del contenedor del logo -->
+                <a href="index.html" class="navbar-brand h-100 m-0 p-0 d-flex">
+                    <h1><img src="img/LOGO_ARGAM/logo_white.png" alt="milogotipo" class="logo"></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 px-0 text-start">
+                <div class="h-100 d-flex align-items-center py-2 me-0">
+                    <i class="fa fa-envelope text-primary me-2"></i>
+                    <p class="mb-0" style="color: lightgray;">argam.constructora.inmobiliaria@gmail.com</p>
+                    <i class="fa fa-phone-alt text-primary ms-4 me-2"></i>
+                    <p class="mb-0 me-4" style="color: lightgray;">947 254 491</p>
+                    <a class="btn btn-xs ms-3" href="F_Trabaja_Nosotros.html">Trabaja <br>con nosotros</a>
+                </div>
+            </div>
+            <div class="col-lg-3 px-0 text-start"> <!-- Ajuste para mantener el mismo tamaño en la tercera columna -->
+                <div class="d-inline-flex align-items-center py-0">
+                    <a class="me-3" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="me-3" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="me-3" class="" href="https://wa.link/ananwh" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a class="me-3" href="https://www.instagram.com/argam.constructora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="" href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid navbar-fixed d-md-block" style="position: fixed; z-index: 1000;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h4 id="argam-titulo" class="m-0 text-uppercase" style="color: white;">Argam S.A.C.</h4>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0" style="margin-left: 50px;">
+                        <a href="index.html" class="nav-item nav-link">INICIO</a>
+                        <a href="2_SOBRE NOSOTROS.html" class="nav-item nav-link">NOSOTROS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICIOS</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="3_SE1_TOPOGRAFIA.html" class="dropdown-item">Estudios topográficos</a>
+                                <a href="3_SE2_EXPE_CONSTRUCCION.html" class="dropdown-item">Expedientes para construcción</a>
+                                <a href="3_SE3_SF_LEGAL.html" class="dropdown-item">Saneamiento físico legal</a>
+                                <a href="3_SE4_EJEC_OBRAS.html" class="dropdown-item">Ejecución de obras</a>
+                                <a href="3_SE5_INMOBILIARIA.html" class="dropdown-item">Inmobiliaria</a>
+                                <a href="3_SE6_OTROS_SERVICIOS.html" class="dropdown-item">Otros servicios</a>
+                            </div>
+                        </div>
+                        <a href="4_PROYECTOS.html" class="nav-item nav-link">PROYECTOS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PORTAFOLIO</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="https://online.fliphtml5.com/lkmba/dzud/index.html" class="dropdown-item" target="_blank">Presentación de nuestros servicios</a>
+                                <a href="https://online.fliphtml5.com/lkmba/veoz/index.html" class="dropdown-item" target="_blank">Proyectos de vivienda</a>
+                            </div>
+                        </div>
+                        <a href="6_CONTACTO.html" class="nav-item nav-link">CONTACTO</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="6_CONTACTO.html" class="btn btn-primary rounded-0 py-2 px-6 d-none d-lg-block">Consultas<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+        <div class="container-fluid page-header-inner py-5 d-flex flex-column align-items-center justify-content-center">
+            <div class="container text-center p-3" style="max-width: 700px;">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Libro de Reclamaciones</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="index.html" style="color: white;">INICIO</a></li>
+                        <li class="breadcrumb-item active"><a href="F_Libro_Reclamaciones.html">LIBRO DE RECLAMACIONES</a></li>
+                        <!---<li class="breadcrumb-item text-white active" aria-current="page">Nosotros</li>--->
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Form Start -->
+    <div class="container-fluid">
+        <div class="container py-2">
+            <div class="container text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-4 t-secondary">Libro de <span class="text-primary text-uppercase">Reclamaciones</span></h1>
+            </div>
+        </div>
+        <div class="container py-3 color-1">
+            <p>De acuerdo con lo dispuesto en el Código de Protección y Defensa del Consumidor, esta entidad dispone de un formulario de quejas disponible para su uso.</p>
+            <!-- Formulario 1: Identificación del Consumidor Reclamante -->
+            <form id="form1LR">
+                <h3 class="t-secondary">1: Identificación del Cliente Consumidor</h3>
+                <div class="row g-3">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="nombre">Nombre(s):</label>
+                            <input type="text" class="form-control" id="nombreLR" name="nombre" required>
+                            <span id="nombreErrorLR" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apellidoPaterno">Apellido Paterno: </label>
+                            <input type="text" class="form-control" id="apellidoPaternoLR" required>
+                            <span id="apellidoPErrorLR" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apellidoMaterno">Apellido Materno:</label>
+                            <input type="text" class="form-control" id="apellidoMaternoLR" required>
+                            <span id="apellidoMErrorLR" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="tipoDocumento">Tipo de Documento:</label>
+                        <select class="form-control" id="tipoDocumentoLR" name="tipoDocumento" required>
+                            <option value="dniLR">DNI</option>
+                            <option value="ceLR">Carné de Extranjería</option>
+                            <option value="RucLR">RUC</option>
+                            <option value="PasaporteLR">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="numeroDocumento">Número de Documento:</label>
+                        <input type="text" class="form-control" id="numeroDocumentoLR" name="numeroDocumento" required>
+                        <span id="numDocErrorLR" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="fechaActual">Fecha Actual:</label>
+                        <input type="text" class="form-control" id="fechaActualLR" name="fechaActual" readonly>
+                    </div>                    
+                    
+                    <div class="form-group col-md-4">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="emailLR" name="email" required>
+                        <span id="gmailErrorLR" class="text-danger"></span>
+                    </div>
+    
+                    <div class="form-group col-md-4">
+                        <label for="telefono">Teléfono (WhatsApp):</label>
+                        <input type="tel" class="form-control" id="telefonoLR" name="telefono" required>
+                        <span id="TelefonoErrorLR" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="domicilio">Domicilio:</label>
+                        <input type="text" class="form-control" id="domicilioLR" name="domicilio" required>
+                        <span id="domicilioErrorLr" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="departamento">Departamento:</label>
+                        <input type="text" class="form-control" id="departamentoLR" name="departamento" required>
+                        <span id="DepartamentoErrorLR" class="text-danger"></span>
+                    </div>
+   
+                    <div class="form-group col-md-4">
+                        <label for="provincia">Provincia:</label>
+                        <input type="text" class="form-control" id="provinciaLR" name="provincia" required>
+                        <span id="ProvinciaErrorLR" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="distrito">Distrito:</label>
+                        <input type="text" class="form-control" id="distritoLR" name="distrito" required>
+                        <span id="DistritoErrorLR" class="text-danger"></span>
+                    </div>
+
+                    <label for="edad"><b>¿Es usted mayor edad?:</b></label>
+                    <div class="form-check col-md-3">
+                        <input class="form-check-input" type="radio" name="edad" id="mayorLR" value="mayor" required>
+                        <label class="form-check-label" for="mayor">Sí, soy mayor de edad.</label>
+                    </div>
+                    <div class="form-check col-md-3">
+                        <input class="form-check-input" type="radio" name="edad" id="menorLR" value="menor" required>
+                        <label class="form-check-label" for="menor">No, soy menor de edad</label>
+                    </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container py-3 color-1">
+            <!-- Formulario 3: Detalle de la Reclamación y Pedido del Consumidor -->
+            <form id="form2LR" enctype="multipart/form-data">
+                <h3 class="t-secondary">2: Detalle de la Reclamación y Pedido del Cliente Consumidor</h3>
+                <label for="Disconformidad"><b>Disconformidad:</b></label>
+                <div class="form-check col-md-1">
+                    <input class="form-check-input" type="radio" name="Disconformidad" id="QuejaLR" value="QuejaLR" required>
+                    <label class="form-check-label" for="QuejaLR">Queja.</label>
+                </div>
+                <div class="form-check col-md-1">
+                    <input class="form-check-input" type="radio" name="Disconformidad" id="ReclamoLR" value="ReclamoLR" required>
+                    <label class="form-check-label" for="ReclamoLR">Reclamo.</label>
+                </div>
+                <p class="text-success" style="font-size: 12px;">
+                    *Queja: Descontento que no está asociado a los proyectos o servicios; sino a la sensación de malestar o insatisfacción en relación a la atención al público. <br>
+                    *Reclamo: Desacuerdo vinculado a los proyectos o servicios.</p>
+                <div class="row g-3">
+                    <div class="form-group col-md-6">
+                        <label for="detalleLR"><b>Detalle su reclamo:</b></label>
+                        <textarea class="form-control" id="detalleLR" name="detalleLR" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="peticion"><b>Aclare su petición:</b></label>
+                        <textarea class="form-control" id="peticion" name="peticionLR" rows="3" required></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group col-md-8">
+                    <label for="adjuntosLR"><b>Adjuntar documentos (PDF, PPTX, Excel, Word, JPG, PNG) - Máximo 5MB por documento:</b></label>
+                    <input type="file" class="form-control-file" id="adjuntosLR" name="adjuntos[]" multiple accept=".pdf, .pptx, .xlsx, .docx, .jpg, .jpeg, .png" onchange="validarTamanioArchivos(this, 5)">
+                    <small class="form-text text-success">Puede adjuntar más de un documento.</small>
+                </div>
+                <p></p>
+            </form>
+            <h3 class="t-secondary">3: Observaciones</h3>
+            <p style="text-align: justify;"><b>(a)</b> Descripción: Dado que se trata de una reclamación en línea, su situación será remitida al departamento 
+                de atención al cliente con el objetivo de proporcionar una respuesta dentro de los plazos legalmente 
+                establecidos.</p>
+            <p style="text-align: justify;"><b>(b)</b> El proveedor tiene la obligación de responder al reclamo en un lapso que no exceda los (15) 
+                quince días calendario, con la posibilidad de extender este plazo hasta (20) veinte días adicionales, 
+                siempre y cuando se informe previamente al consumidor.</p>           
+        </div>
+        <div class="container py-2">
+            <form id="declaracionForm">
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="declaracion" name="declaracion" required>
+                    <label class="form-check-label" for="declaracion">Afirmo ser la persona titular de la información proporcionada en este formulario, expresando mediante una declaración jurada los acontecimientos detallados en el mismo.</label>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+            
+    <!-- Form End -->
+
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 mb-5 p-3" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 border rounded p-1">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5">
+                        <h4 class="mb-4 t-secondary">Suscríbete a nuestra <span class="text-primary text-uppercase"> PÁGINA </span></h4>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Ingrese su correo">
+                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-footer text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-primary rounded p-4">
+                        <a href="index.html"><h2 id="argam-titulo" class="text-white text-uppercase mb-3">ARGAM</h2></a>
+                        <p class="text-white mb-0" style="text-align: justify;">
+                            Descargar <a class="t-secondary fw-medium" href="https://online.fliphtml5.com/lkmba/veoz/index.html" target="_blank">ARGAM – Portafolio</a>, "Argam: Construyendo Hogares, Creando Historias." descarga tu Portafolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="section-title text-start text-primary text-uppercase mb-4">Contactos</h6>
+                    <p class="mb-2" ><i class="fa fa-map-marker-alt me-2"></i>Av. Cusco N° 116, San Sebastian, Cusco </p>
+                    <p class="mb-2" ><i class="fa fa-phone-alt me-2"></i>+51 947 254 491</p>
+                    <p class="mb-0" ><i class="fa fa-envelope me-2"></i>argam.constructora.</p>
+                    <p class="mb-2" style="display: inline;">inmobiliaria@gmail.com</p><br>
+                    <p class="mb-2" style="display: inline;"><b>RUC:</b> 20609856174</p><br>
+                    <p class="mb-2" style="display: inline;"><b>Fundación:</b> 12 de agosto del año 2022</p>
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=51947254491" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/argam.constructora/" target="_blank "><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12"> 
+                    <div class="row gy-5 g-4">
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Compañía</h6>
+                            <a class="btn btn-link" href="index.html">Inicio</a>
+                            <a class="btn btn-link" href="2_SOBRE NOSOTROS.html">Nosotros</a>
+                            <a class="btn btn-link" href="3_SERVICIOS.html">Servicios</a>
+                            <a class="btn btn-link" href="4_PROYECTOS.html">Proyectos</a>
+                            <a class="btn btn-link" href="https://online.fliphtml5.com/lkmba/dzud/index.html" target="_blank">Portafolio</a>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Servicios</h6>
+                            <a class="btn btn-link" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</a>
+                            <a class="btn btn-link" href="3_SE2_EXPE_CONSTRUCCION.html">Expedientes de construcción</a>
+                            <a class="btn btn-link" href="3_SE3_SF_LEGAL.html">Saneamiento físico Legal</a>
+                            <a class="btn btn-link" href="3_SE4_EJEC_OBRAS.html">Ejecución de obras</a>
+                            <a class="btn btn-link" href="3_SE5_INMOBILIARIA.html">Inmobiliaria</a>
+                            <a class="btn btn-link" href="3_SE6_OTROS_SERVICIOS.html">Otros servicios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Inmuebles Argam 2024</a>, Todos los Derechos Reservados. 
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">JGM</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Inicio</a>
+                            <a href="F_Libro_Reclamaciones.html">Libro de Reclamaciones</a>
+                            <a href="F_Preguntas_Frecuentes.html">Preguntas Frecuentes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Whatsapp icon -->
+    <a href="https://api.whatsapp.com/send?phone=51947254491" class="btn btn-outline-light btn-social btn-lg-square whatsapp-btn">
+        <i class="fab fa-whatsapp fa-beat-fade"></i>
+    </a>              
+
+    <!-- JavaScript Libraries -->
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bibliotecas y Plugins -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Inicio - Constructora & Inmobiliaria - argam</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/agram_FAV.png" rel="icon" type="image/png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid" style="background-color: #194353;">
+        <div class="container d-flex justify-content-between align-items-center d-none d-md-flex">
+            <div class="col-lg-2" style="margin-left: 80px;"> <!-- Ajuste en el tamaño del contenedor del logo -->
+                <a href="index.html" class="navbar-brand h-100 m-0 p-0 d-flex">
+                    <h1><img src="img/LOGO_ARGAM/logo_white.png" alt="milogotipo" class="logo"></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 px-0 text-start">
+                <div class="h-100 d-flex align-items-center py-2 me-0">
+                    <i class="fa fa-envelope text-primary me-2"></i>
+                    <p class="mb-0" style="color: lightgray;">argam.constructora.inmobiliaria@gmail.com</p>
+                    <i class="fa fa-phone-alt text-primary ms-4 me-2"></i>
+                    <p class="mb-0 me-4" style="color: lightgray;">947 254 491</p>
+                    <a class="btn btn-xs ms-3" href="F_Trabaja_Nosotros.html">Trabaja<br>con nosotros</a>
+                </div>
+            </div>
+            <div class="col-lg-3 px-0 text-start"> <!-- Ajuste para mantener el mismo tamaño en la tercera columna -->
+                <div class="d-inline-flex align-items-center py-0">
+                    <a class="me-3" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="me-3" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="me-3" class="" href="https://wa.link/ananwh" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a class="me-3" href="https://www.instagram.com/argam.constructora/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="" href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid navbar-fixed d-md-block" style="position: fixed; z-index: 1000;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h4 id="argam-titulo" class="m-0 text-uppercase" style="color: white;">Argam S.A.C.</h4>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0" style="margin-left: 50px;">
+                        <a href="index.html" class="nav-item nav-link active">INICIO</a>
+                        <a href="2_SOBRE NOSOTROS.html" class="nav-item nav-link">NOSOTROS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SERVICIOS</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="3_SE1_TOPOGRAFIA.html" class="dropdown-item">Estudios topográficos</a>
+                                <a href="3_SE2_EXPE_CONSTRUCCION.html" class="dropdown-item">Expedientes para construcción</a>
+                                <a href="3_SE3_SF_LEGAL.html" class="dropdown-item">Saneamiento físico legal</a>
+                                <a href="3_SE4_EJEC_OBRAS.html" class="dropdown-item">Ejecución de obras</a>
+                                <a href="3_SE5_INMOBILIARIA.html" class="dropdown-item">Inmobiliaria</a>
+                                <a href="3_SE6_OTROS_SERVICIOS.html" class="dropdown-item">Otros servicios</a>
+                            </div>
+                        </div>
+                        <a href="4_PROYECTOS.html" class="nav-item nav-link">PROYECTOS</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PORTAFOLIO</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="https://online.fliphtml5.com/lkmba/dzud/index.html" class="dropdown-item" target="_blank">Presentación de nuestros servicios</a>
+                                <a href="https://online.fliphtml5.com/lkmba/veoz/index.html" class="dropdown-item" target="_blank">Proyectos de vivienda</a>
+                            </div>
+                        </div>
+                        <a href="6_CONTACTO.html" class="nav-item nav-link">CONTACTO</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="6_CONTACTO.html" class="btn btn-primary rounded-0 py-2 px-6 d-none d-lg-block">Consultas<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/Proyectos/PORTADA_PROYECTOS.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 700px;">
+                            <h6 id="argam-titulo" class="section-title text-uppercase mb-3 animated slideInDown">ARGAM</h6>
+                            <h1 class="display-3 text-white mb-4 animated slideInDown"> Elaboración de Proyectos</h1>
+                            <a href="4_PROYECTOS.html" class="btn btn-primary py-md-1 px-md-4 me-3 animated slideInLeft" style="text-transform: capitalize;">Ver más >>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/Ejecucion_de_obras/PORTADA_EJOBRAS.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 700px;">
+                            <h6 id="argam-titulo" class="section-title text-white text-uppercase mb-3 animated slideInDown">ARGAM</h6>
+                            <h1 class="display-3 text-white mb-4 animated slideInDown"> Ejecución de obras </h1>
+                            <a href="4_PROYECTOS.html" class="btn btn-primary py-md-1 px-md-4 me-3 animated slideInLeft" style="text-transform: capitalize;">Ver más >>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/Saneamiento_Fisico_Legal/PORTADA_SFL.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 700px;">
+                            <h6 id="argam-titulo" class="section-title text-white text-uppercase mb-3 animated slideInDown">ARGAM</h6>
+                            <h1 class="display-3 text-white mb-4 animated slideInDown">Saneamiento Físico Legal  </h1>
+                            <a href="3_SE3_SF_LEGAL.html" class="btn btn-primary py-md-1 px-md-4 me-3 animated slideInLeft" style="text-transform: capitalize;">Ver más >>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/Inmobiliaria/PORTADA_INMO.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 700px;">
+                            <h6 id="argam-titulo" class="section-title text-white text-uppercase mb-3 animated slideInDown">ARGAM</h6>
+                            <h1 class="display-3 text-white mb-4 animated slideInDown"> Inmobiliaria </h1>
+                            <a href="3_SE5_INMOBILIARIA.html" class="btn btn-primary py-md-1 px-md-4 me-3 animated slideInLeft" style="text-transform: capitalize;">Ver más >>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h6 class="section-title text-start text-primary text-uppercase"> Constructora & Inmobiliaria </h6> 
+                    <h1 class="mb-4 t-secondary">Bienvenido a <span id="argam-titulo" class="text-primary text-uppercase">ARGAM</span></h1>
+                    <p class="mb-4"> <b>Comprometidos con la innovacion y el progreso </b></p>
+                    <p class="mb-4" style="text-align: justify;">"Guiados por nuestra pasión por la innovación y el avance, nos dedicamos 
+                        a ofrecer servicios que enriquecen la calidad de vida y fomentan el crecimiento de nuestra 
+                        comunidad. Como empresa constructora e inmobiliaria, nos esforzamos por impulsar el progreso y 
+                        crear un futuro mejor para todos."</p>
+                        <br>
+                    <div class="row g-3 pb-4 justify-content-center text-center">
+                        <h2 class="mb-4 t-secondary"> Nuestros <span class="text-primary text-uppercase">5 pilares</span></h2>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa-solid fa-users fa-2x text-primary mb-2"></i>
+                                    <h5 class="mb-1 t-secondary">Asesorar</h5>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa-solid fa-hard-hat fa-2x text-primary mb-2"></i>
+                                    <h5 class="mb-1 t-secondary">Proyectar</h5>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa-solid fa-building-user fa-2x text-primary mb-2"></i>
+                                    <h5 class="mb-1 t-secondary">Crear</h5>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa-solid fa-lightbulb fa-2x text-primary mb-2"></i>
+                                    <h5 class="mb-1 t-secondary">Innovar</h5>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa fa-tools fa-2x text-primary mb-2"></i>
+                                    <h5 class="mb-1 t-secondary">Ejecutar</h5>
+                                    <p class="mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!----  <a class="btn btn-primary py-3 px-5 mt-2" href="">Explorar más</a> ---->
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/inicio_campo.jpg" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/iniciokintu.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/inicio_t.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/inisumak.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Projects Start -->
+    <div class="container-fluid py-5 color-1">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <!--<h6 class="section-title text-center text-primary text-uppercase">Nuestros proyectos</h6> -->
+                <h1 class="mb-5 t-secondary">Proyectos <span class="text-primary text-uppercase">Ejecutados</span></h1>
+            </div>
+            <div class="d-flex align-items-center justify-content-center position-relative">
+                <div class="row g-4" id="room-carousel">
+                    <!-- Aquí se mostrarán dinámicamente los proyectos -->
+                </div>
+                <button class="btn btn-lg btn-primary rounded-circle position-absolute start-0 translate-middle-y" id="prev-btn"><i class="fa fa-chevron-left"></i></button>
+                <button class="btn btn-lg btn-primary rounded-circle position-absolute end-0 translate-middle-y" id="next-btn"><i class="fa fa-chevron-right"></i></button>
+            </div>                
+        </div>
+    </div>
+
+    <script>
+        // Datos de los proyectos
+        var products = [
+            {
+                imgSrc: "img/Proyectos/TANCARPATA.jpg",
+                price: "T'ANCARPATA",
+                name: "PROYECTO UNIFAMILIAR",
+                rating: 1,
+                niveles: "2 Niveles",
+                Area: "90 m² Área",
+                ubicacion: "San Sebastián - Cusco",
+                description: "T'ancarpata, se enfoca en un diseño moderno. Creando espacios cómodos y funcionales, logrando un ambiente versátil, acogedor y una conexión armoniosa entre todos los ambientes."
+            },
+            {
+                imgSrc: "img/Proyectos/RSAYLLA.jpg",
+                price: "R. SAYLLA",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "6 Niveles",
+                Area: "110 m² Área",
+                ubicacion: "Saylla - Cusco",
+                description: "Residencial Saylla, cuenta con un diseño moderno que fomenta la conexión a través de terrazas y áreas verdes, ofreciendo un espacio contemporáneo y armonioso para sus residentes."
+            },
+            {
+                imgSrc: "img/Proyectos/JOMI.jpg",
+                price: "JOMI",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "5 Niveles y azotea",
+                Area: "120 m² Área",
+                ubicacion: "Posada del sol- San Sebastián - Cusco",
+                description: "Proyecto Jomi, destaca por su arquitectura contemporánea en tono blanco. Con énfasis en la entrada de luz natural, este proyecto incorpora aberturas estratégicas que maximizan la luminosidad en cada espacio."
+            },
+            {
+                imgSrc: "img/Proyectos/CASAS.jpg",
+                price: "CASA S",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "5 Niveles y azotea",
+                Area: "90 m² Área",
+                ubicacion: "Sicuani Canchis - Cusco",
+                description: "Proyecto Casa S, aprovecha al máximo cada espacio con un diseño que resalta por su amplitud. Su enfoque creativo hacia ambas calles logra eficiencia y funcionalidad."
+            },
+            {
+                imgSrc: "img/Proyectos/CASAVALLE.jpg",
+                price: "CASA VALLE",
+                name: "PROYECTO UNIFAMILIAR",
+                rating: 1,
+                niveles: "2 Niveles",
+                Area: "100 m² Área",
+                ubicacion: "Urubamba - Cusco",
+                description: "Casa Valle, cuenta con un diseño moderno de vivienda unifamiliar que integra todos los espacios con una arquitectura resaltante, promoviendo el uso y conservación de áreas verdes."
+            },
+            {
+                imgSrc: "img/Proyectos/FAM_NOAVRAGAS.jpg",
+                price: "FAM. NOA VARGAS",
+                name: "PROYECTO UNIFAMILIAR",
+                rating: 1,
+                niveles: "2 Niveles y azotea",
+                Area: "90 m² Área",
+                ubicacion: "San Sebastián - Cusco",
+                description: "El proyecto Noa Vargas cuenta con un diseño unifamiliar de dos niveles con terraza en el segundo piso, destacando con su arquitectura distintiva. Completa su encanto con un patio modesto en la parte frontal."
+            },
+            {
+                imgSrc: "img/Proyectos/FAM_HUALLPA.png",
+                price: "FAM. HUALLPA",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "5 Niveles",
+                Area: "209 m² Área",
+                ubicacion: "Pata pata San Jerónimo - Cusco",
+                description: "Este proyecto cuenta con una fachada que fusiona colores oscuros y claros, con balcones cromados que se armonizan con pequeñas áreas verdes, creando una estética moderna y vibrante."
+            },
+            {
+                imgSrc: "img/Proyectos/KINTU.jpg",
+                price: "K'INTU",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "6 Niveles",
+                Area: "150 m² Área",
+                ubicacion: "Surihuaylla San Sebastián - Cusco",
+                description: "Kíntu es un proyecto ecoamigable que destaca por su enfoque sostenible, incorporando sistemas de reciclaje de aguas y generación de energía eléctrica para promover un estilo de vida responsable."
+            },
+            {
+                imgSrc: "img/Proyectos/RESIDENCIAL_SUMAQ_TIKA.png",
+                price: "SUMAQ T'IKA",
+                name: "PROYECTO MULTIFAMILIAR",
+                rating: 1,
+                niveles: "5 Niveles",
+                Area: "120 m² Área",
+                ubicacion: "Coripata Santiago - Cusco",
+                description: "El proyecto Sumaq Tíka destaca por su diseño estético que incorpora armoniosamente el uso de plantas, creando un ambiente natural y atractivo."
+            }
+        ];
+
+        // Variables para el carrusel
+        var currentProductIndex = 0;
+        var productsPerPage = getProductsPerPage(); // Obtener el número de proyectos por página
+
+        // Función para obtener el número de proyectos por página según el tamaño de la pantalla
+        function getProductsPerPage() {
+            return window.innerWidth >= 768 ? 3 : 1; // Mostrar 3 proyectos por página en pantallas grandes, 1 en pantallas pequeñas
+        }
+
+        // Función para renderizar los proyectos
+        function renderProducts() {
+            $("#room-carousel").empty();
+
+            for (var i = currentProductIndex; i < currentProductIndex + productsPerPage && i < products.length; i++) {
+                var product = products[i];
+                var stars = Array(product.rating).fill('<small class="fa fa-star text-primary"></small>').join('');
+
+                var productHtml = `
+                    <div class="col-lg-${12 / productsPerPage} col-md-6 wow fadeInUp fixed-height-container" data-wow-delay="0.1s">
+                        <div class="room-item fixed-height-container shadow rounded overflow-hidden position-relative">
+                            <img class="img-fluid img-proyectos" src="${product.imgSrc}" alt="">
+                            <div class="price-container position-absolute top-80 start-50 translate-middle p-3 text-center">
+                                <small class="bg-primary text-white rounded py-2 px-3 d-none d-sm-block">${product.price}</small>
+                                <small class="bg-primary text-white rounded py-2 px-3 d-block d-sm-none">${product.price}</small>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex justify-content-center mb-2">
+                                    <h6 class="mb-0 mt-3 t-secondary">${product.name}</h6>
+                                    <div class="ps-2"><i class="fa fa-building-circle-check text-primary mt-3"></i></div>
+                                </div>
+                                <div class="d-flex mb-2 justify-content-center">
+                                    <small class="border-end me-1 pe-1"><i class="fa fa-building text-primary me-2"></i>${product.niveles} </small>
+                                    <small class="border-end me-1 pe-1"><i class="fa fa-chart-area text-primary me-2"></i>${product.Area} </small>
+                                    <small><i class="fa fa-map-location-dot text-primary me-2"></i>${product.ubicacion} </small>
+                                </div>
+                                <p class="text-body mb-1 text-center">${product.description}</p>
+                                <div class="p-2 position-absolute bottom-0 start-50 translate-middle-x">
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="white-space: nowrap;">Ver Proyecto</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                $("#room-carousel").append(productHtml);
+
+            }
+        }
+
+        // Funciones para manejar los botones de siguiente y anterior
+        $("#prev-btn").click(function () {
+            if (currentProductIndex > 0) {
+                currentProductIndex -= productsPerPage;
+                renderProducts();
+            }
+        });
+
+        $("#next-btn").click(function () {
+            if (currentProductIndex + productsPerPage < products.length) {
+                currentProductIndex += productsPerPage;
+                renderProducts();
+            }
+        });
+
+        // Verificar el tamaño de la pantalla y renderizar productos al cargar la página
+        $(document).ready(function () {
+            productsPerPage = getProductsPerPage();
+            renderProducts();
+        });
+
+        // Actualizar el número de productos por página al cambiar el tamaño de la ventana
+        $(window).on('resize orientationchange', function () {
+            productsPerPage = getProductsPerPage();
+            renderProducts();
+        });
+    </script>
+    <!-- Projects End -->
+
+        
+        
+    <!-- Enfoque Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Nuestro enfoque</h6>
+                <h1 class="mb-5 t-secondary">En la <span class="text-primary text-uppercase">Calidad</span></h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item fixed-size-container shadow rounded overflow-hidden d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <i class="fas fa-award fa-flip fa-5x text-primary"></i>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-center mb-3">
+                                <h5 class="mb-0 text-center t-secondary">Estandares Elevados</h5>
+                            </div>                                
+                            <p class="text-body mb-3 text-center">
+                                Nos esforzamos por superar los estándares de la industria.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item fixed-size-container shadow rounded overflow-hidden d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <i class="fa-solid fa-building-circle-check fa-flip fa-5x text-primary"></i>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-center mb-3">
+                                <h5 class="mb-0 text-center t-secondary">Rigor en el Control de Calidad</h5>
+                            </div>                                
+                            <p class="text-body mb-3 text-center">
+                                Empleamos procesos
+                                de control que
+                                garantizan la precisión
+                                y consistencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item fixed-size-container shadow rounded overflow-hidden d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <i class="fa-solid fa-users-gear fa-flip fa-5x text-primary"></i>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-center mb-3">
+                                <h5 class="mb-0 text-center t-secondary">Profesionales Expertos</h5>
+                            </div>                                
+                            <p class="text-body mb-3 text-center">
+                                Contamos con un
+                                equipo altamente
+                                calificado orientado a
+                                la excelencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item fixed-size-container shadow rounded overflow-hidden d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <i class="fas fa-cogs fa-flip fa-5x text-primary"></i>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-center mb-3">
+                                <h5 class="mb-0 text-center t-secondary">Tecnología Innovadora</h5>
+                            </div>                                
+                            <p class="text-body mb-3 text-center">
+                                Integramos tecnología
+                                avanzada para
+                                optimizar la eficiencia
+                                y asegurar la calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item fixed-size-container shadow rounded overflow-hidden d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <i class="fa-solid fa-handshake fa-flip fa-5x text-primary"></i>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-center mb-3">
+                                <h5 class="mb-0 text-center t-secondary">Transparencia y Colaboración</h5>
+                            </div>                                
+                            <p class="text-body mb-3 text-center">
+                                Fomentamos una
+                                comunicación abierta
+                                y colaborativa con
+                                nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+    </div>
+    <!-- Enfoque End -->
+
+
+    <!-- Video Start -->
+    <div class="container-fluid py-5 px-0 wow zoomIn color-1" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 bg-menu d-flex align-items-center">
+                    <div class="p-5">
+                        <h6 id="argam-titulo" class="section-title text-start text-white text-uppercase mb-3">Argam S.A.C.</h6>
+                        <h1 class="text-white mb-4">Constructora e Inmobiliaria</h1>
+                        <p class="text-white mb-4" style="text-align: justify;">Somos más que una empresa: Un equipo apasionado por la innovación y 
+                            comprometido con la excelencia. Cada proyecto es una oportunidad para superar expectativas 
+                            y generar mejoras continuas.</p>
+                        <a href="6_CONTACTO.html" class="btn btn-primary py-md-3 px-md-5 me-3">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="video">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/5iPE6thQMuo" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center t-secondary" id="exampleModalLabel">CONSTRUCTORA & INMOBILIARIA ARGAM S.A.C.</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <!-- Corregir el enlace de src a un enlace de inserción de YouTube -->
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5iPE6thQMuo" id="video" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video END -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Nuestros servicios </h6>
+                <h1 class="mb-5 t-secondary">Explora Nuestros <span class="text-primary text-uppercase">Servicios</span></h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="service-item rounded" href="3_SE1_TOPOGRAFIA.html" data-toggle="modal" data-target="#myModal">
+
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fas fa-map-marked-alt fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Estudios topograficos</h5>
+                        <p class="text-body mb-0">El levantamiento topográfico es esencial en construcción y planificación territorial,</p>
+                        <p class="text-body mb-0">requiere medición precisa para garantizar calidad y fiabilidad.</p> 
+                    </a>
+                    
+                </div>
+
+            
+                <script src="ventana.js"></script>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <a class="service-item rounded" href="3_SE2_EXPE_CONSTRUCCION.html">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fas fa-file-contract fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Expedientes para Construccion</h5>
+                        <p class="text-body mb-0">
+                            Los expedientes para construcción son documentos esenciales que detallan todos los aspectos 
+                            críticos de un proyecto, garantizando la ejecución eficiente y cumplimiento de estándares.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="service-item rounded" href="3_SE3_SF_LEGAL.html">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="far fa-file-alt fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Saneamiento Fisico Legal</h5>
+                        <p class="text-body mb-0">Regulariza propiedades, asegura cumplimiento legal y brinda seguridad 
+                            para transacciones.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <a class="service-item rounded" href="3_SE4_EJEC_OBRAS.html">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fas fa-hard-hat fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Ejecucion de obras</h5>
+                        <p class="text-body mb-0">Proceso de llevar a cabo proyectos de construcción según los planes y 
+                            especificaciones establecidos.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="service-item rounded" href="3_SE5_INMOBILIARIA.html">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fas fa-building-circle-check fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Inmobiliaria</h5>
+                        <p class="text-body mb-0">Industria que se enfoca en la compra, venta y gestión de bienes raíces, 
+                            como propiedades y terrenos.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <a class="service-item rounded" href="3_SE6_OTROS_SERVICIOS.html">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fas fa-city fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3 t-secondary">Otros Servicios</h5>
+                        <p class="text-body mb-0">Abarcan diversas soluciones para una variedad de necesidades.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 border rounded p-1">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5">
+                        <h4 class="mb-4 t-secondary">Subscríbete a nuestra <span class="text-primary text-uppercase">PÁGINA</span></h4>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Ingrese su correo">
+                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"> ENVIAR </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-footer text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-primary rounded p-4">
+                        <a href="index.html"><h2 id="argam-titulo" class="text-white text-uppercase mb-3">ARGAM</h2></a>
+                        <p class="text-white mb-0" style="text-align: justify;">
+                            Descargar <a class="t-secondary fw-medium" href="https://online.fliphtml5.com/lkmba/veoz/index.html" target="_blank">ARGAM – Portafolio</a>, "Argam: Construyendo Hogares, Creando Historias." descarga tu Portafolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="section-title text-start text-primary text-uppercase mb-4">Contactos</h6>
+                    <p class="mb-2" ><i class="fa fa-map-marker-alt me-2"></i>Av. Cusco N° 116, San Sebastian, Cusco </p>
+                    <p class="mb-2" ><i class="fa fa-phone-alt me-2"></i>+51 947 254 491</p>
+                    <p class="mb-0" ><i class="fa fa-envelope me-2"></i>argam.constructora.</p>
+                    <p class="mb-2" style="display: inline;">inmobiliaria@gmail.com</p><br>
+                    <p class="mb-2" style="display: inline;"><b>RUC:</b> 20609856174</p><br>
+                    <p class="mb-2" style="display: inline;"><b>Fundación:</b> 12 de agosto del año 2022</p>
+
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=51947254491" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ARGAM.CONSTRUCTORA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/argam.constructora/" target="_blank "><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://linktr.ee/argam.constructora" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12"> 
+                    <div class="row gy-5 g-4">
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Compañía</h6>
+                            <a class="btn btn-link" href="index.html">Inicio</a>
+                            <a class="btn btn-link" href="2_SOBRE NOSOTROS.html">Nosotros</a>
+                            <a class="btn btn-link" href="3_SERVICIOS.html">Servicios</a>
+                            <a class="btn btn-link" href="4_PROYECTOS.html">Proyectos</a>
+                            <a class="btn btn-link" href="https://online.fliphtml5.com/lkmba/dzud/index.html" target="_blank">Portafolio</a>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-primary text-uppercase mb-4">Servicios</h6>
+                            <a class="btn btn-link" href="3_SE1_TOPOGRAFIA.html">Estudios topográficos</a>
+                            <a class="btn btn-link" href="3_SE2_EXPE_CONSTRUCCION.html">Expedientes de construcción</a>
+                            <a class="btn btn-link" href="3_SE3_SF_LEGAL.html">Saneamiento físico Legal</a>
+                            <a class="btn btn-link" href="3_SE4_EJEC_OBRAS.html">Ejecución de obras</a>
+                            <a class="btn btn-link" href="3_SE5_INMOBILIARIA.html">Inmobiliaria</a>
+                            <a class="btn btn-link" href="3_SE6_OTROS_SERVICIOS.html">Otros servicios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Inmuebles Argam 2024</a>, Todos los Derechos Reservados. 
+                        
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="#">JGM</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Inicio</a>
+                            <a href="F_Libro_Reclamaciones.html">Libro de Reclamaciones</a>
+                            <a href="F_Preguntas_Frecuentes.html">Preguntas Frecuentes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Whatsapp icon -->
+    <a href="https://api.whatsapp.com/send?phone=51947254491" class="btn btn-outline-light btn-social btn-lg-square whatsapp-btn">
+        <i class="fab fa-whatsapp fa-beat-fade"></i>
+    </a>              
+
+    <!-- JavaScript Libraries -->
+    
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bibliotecas y Plugins -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

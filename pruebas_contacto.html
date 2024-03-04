@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pasarela de Productos</title>
+  <!-- Enlace a Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Enlace a FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-cRP2pufGnBAZ3xSkLTA3WJfqFfc9u2A8fF7PEq35h6Mnt63P87FA5aqEgpv0qg/BIC+1yuNZd6W9kEOV7j5U7g==" crossorigin="anonymous" />
+  <!-- Tu archivo de estilos personalizado (opcional) -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos personalizados para los botones de navegación */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 30px; /* Tamaño del botón */
+      height: 30px;
+      font-size: 1rem; /* Tamaño del ícono */
+      top: 50%; /* Posiciona verticalmente al centro */
+      transform: translateY(-50%);
+      background-color: transparent; /* Fondo transparente */
+      border: none; /* Sin borde */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #007bff; /* Color de fondo del ícono (azul en este caso) */
+      border-radius: 50%; /* Bordes redondeados */
+    }
+
+    /* Ajuste de posición para el botón siguiente */
+    .carousel-control-next {
+      right: 0; /* Alinea a la derecha */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Primer conjunto de 3 productos -->
+      <div class="carousel-item active">
+        <div class="row">
+          <!-- Producto 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card position-relative">
+              <img src="https://i.pinimg.com/564x/b9/b2/36/b9b236d9b2dba6a2a66c661eeea2ac14.jpg" class="card-img-top" alt="Producto 1">
+              
+              <!-- Etiqueta en la parte inferior y centrada -->
+            <div class="position-absolute bottom-0 start-50 translate-middle-x">
+                <span class="badge bg-secondary">Etiqueta</span>
+            </div>
+              
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fas fa-layer-group" style="color: yellow"></i> <!-- Ícono de niveles -->
+                  <i class="fas fa-globe"></i> <!-- Ícono de área -->
+                  <i class="fas fa-map-marker-alt"></i> <!-- Ícono de ubicación -->
+                  Producto 1
+                </h5>
+                <p class="card-text">Descripción del Producto 1.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card position-relative">
+              <img src="https://i.pinimg.com/564x/b9/b2/36/b9b236d9b2dba6a2a66c661eeea2ac14.jpg" class="card-img-top" alt="Producto 1">
+              
+              <!-- Etiqueta en la parte inferior y centrada -->
+              <div class="position-absolute bottom-0 start-50 translate-middle-x">
+                <span class="badge bg-secondary">Etiqueta</span>
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fas fa-layer-group" style="color: yellow"></i> <!-- Ícono de niveles -->
+                  <i class="fas fa-globe"></i> <!-- Ícono de área -->
+                  <i class="fas fa-map-marker-alt"></i> <!-- Ícono de ubicación -->
+                  Producto 1
+                </h5>
+                <p class="card-text">Descripción del Producto 1.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Producto 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="imagen_producto_2.jpg" class="card-img-top" alt="Producto 2">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+                <p class="card-text">Descripción del Producto 2.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo conjunto de 3 productos -->
+      <div class="carousel-item">
+        <div class="row">
+          <!-- Producto 4 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="imagen_producto_4.jpg" class="card-img-top" alt="Producto 4">
+              <div class="card-body">
+                <h5 class="card-title">Producto 4</h5>
+                <p class="card-text">Descripción del Producto 4.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Producto 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="imagen_producto_5.jpg" class="card-img-top" alt="Producto 5">
+              <div class="card-body">
+                <h5 class="card-title">Producto 5</h5>
+                <p class="card-text">Descripción del Producto 5.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Producto 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="imagen_producto_6.jpg" class="card-img-top" alt="Producto 6">
+              <div class="card-body">
+                <h5 class="card-title">Producto 6</h5>
+                <p class="card-text">Descripción del Producto 6.</p>
+                <p class="card-text">Precio: $XX.XX</p>
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Botones de navegación -->
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next btn-primary" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+  </div>
+</div>
+
+<!-- Enlace a Bootstrap JS (opcional, pero necesario para algunas funcionalidades) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
